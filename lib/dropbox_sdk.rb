@@ -1113,8 +1113,6 @@ class DropboxClient
       "file_limit" => file_limit.to_s,
       "list" => list.to_s,
       "include_deleted" => include_deleted.to_s,
-      "hash" => hash,
-      "rev" => rev,
       "include_media_info" => include_media_info,
       "include_membership" => include_membership
     }
